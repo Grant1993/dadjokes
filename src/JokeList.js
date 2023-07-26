@@ -38,6 +38,7 @@ function JokeList() {
     if (jokes.length === 0) {
       fetchData();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
